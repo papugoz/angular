@@ -10,7 +10,8 @@ eventsApp.controller('EventController',
         address: 'Postępu 14',
         city: 'Warsaw',
         country: 'Poland'
-      }
+      },
+      imageUrl: '/img/angularjs-logo.png'
     }
   }
 );
