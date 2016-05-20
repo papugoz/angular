@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pl" ng-app="eventsApp">
+    <head>
+        <meta charset="utf-8">
+        <title>Cache Sample
+        </title>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/app.css">
+    </head>
+    <body>
+        <div class="container">
+            <div ng-controller="ComplieSamplecontroller" style="padding:20px;">
+
+              <div id="appendHere"></div>
+              <br/>
+              name: <input type="text" ng-model="name"/><br/>
+              markup: <input type="text" ng-model="markup"/><br/>
+              <button class="btn" ng-click="appendDivToElement(markup)">Append</button>
+              
+            </div>
+        </div>
+    </body>
+    <script src="/lib/jquery.min.js" charset="utf-8"></script>
+    <script src="/lib/underscore-1.4.4.min.js" charset="utf-8"></script>
+    <script src="/lib/bootstrap.min.js" charset="utf-8"></script>
+    <script src="/lib/angular/angular.js" charset="utf-8"></script>
+    <script src="/lib/angular/angular-sanitize.js" charset="utf-8"></script>
+    <script src="/lib/angular/angular-resource.js" charset="utf-8"></script>
+    <script src="/js/app.js" charset="utf-8"></script>
+    <script src="/js/filters.js" charset="utf-8"></script>
+    <script src="/js/controllers/ComplieSamplecontroller.js" charset="utf-8"></script>
+    <script src="/js/services/EventData.js" charset="utf-8"></script>
+</html>
